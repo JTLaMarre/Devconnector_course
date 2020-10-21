@@ -16,5 +16,10 @@ password:{
 },
 avatar:{
     type:String
+},
+data:{
+    default:Date.now
 }
 })
+
+module.exports = User =mongoose.model('user',UserSchema)
