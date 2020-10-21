@@ -18,7 +18,8 @@ avatar:{
     type:String
 },
 data:{
-    default:Date.now
+    type:Date,
+    default: Date.now
 }
 })
 
